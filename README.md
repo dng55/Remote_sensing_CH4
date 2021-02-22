@@ -4,7 +4,11 @@ Combining remote sensing products from Google Earth Engine with a methane emissi
 This method relies on 2D spatial outputs from Camilo-Rey Sanchez's Footprint Aggregated Relative Flux Mapping model. Landsat 8 maps are then overlaid to analyze the correlation between satellite spatial indices (NDVI, NDWI, Brightness Temp) and methane emissions.
 ----------------------------------------------------------
 
-sector_plot.py is the principle script that runs the analysis. See Sample_notebook.ipynb in the "sample" folder for how to run the script in Jupyter Notebooks. Important: you'll need a set of datafiles outputted from Camilo-Rey Sanchez's model (see "data" folder in the sample folder), and a Landsat 8 datafile (see bb1_spatial_indices_big.csv in my github releases) to run the code.
+sector_plot.py is the principle script that runs the analysis. 
+
+See Sample_notebook.ipynb in the "sample" folder for how to run the script in Jupyter Notebooks. 
+
+Important: you'll need a set of datafiles outputted from Camilo-Rey Sanchez's model (see "data" folder in the sample folder), and a Landsat 8 datafile (see bb1_spatial_indices_big.csv in my github releases) to run the code.
 
 
 Scripts:
