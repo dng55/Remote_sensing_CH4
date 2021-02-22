@@ -59,5 +59,6 @@ Matlab support scripts for Camilo-Rey Sanchez's methane hotspot model. Please co
 
 
 Data:
+----------
 - Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
 - See sample folder: "Sample" for example of file setup
