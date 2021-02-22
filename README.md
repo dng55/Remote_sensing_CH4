@@ -6,7 +6,7 @@ This method relies on 2D spatial outputs from Camilo-Rey Sanchez's Footprint Agg
 
 sector_plot.py is the principle script that runs the analysis. 
 
-See Sample_notebook.ipynb in the "sample" folder for how to run the script in Jupyter Notebooks. 
+Download the "sample" folder and run Sample_notebook.ipynb in Jupyter Notebooks to see how the script runs. 
 
 Important: you'll need a set of datafiles outputted from Camilo-Rey Sanchez's model (see "data" folder in the sample folder), and a Landsat 8 datafile (see bb1_spatial_indices_big.csv in my github releases) to run the code.
 
