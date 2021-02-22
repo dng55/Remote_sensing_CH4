@@ -49,7 +49,7 @@ Scripts:
     - Edited Javascript code (original from Sofia Ermida) that computes NDVI, NDWI, MNDWI, and BT
 
 Matlab support scripts for Camilo-Rey Sanchez's methane hotspot model. Please contact Camilo-Rey Sanchez for details regarding his model.
-
+------------------------------------
 7) Output_as_csv.m
     - Saves model output as csv file under naming convention: "BB_fluxMap_x_" followed by time period (e.g. BB_fluxMap_ch4_june_aug2017.csv)
    
