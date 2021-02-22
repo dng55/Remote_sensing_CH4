@@ -43,4 +43,4 @@ Scripts:
 
 
 Data:
-Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
+- Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
