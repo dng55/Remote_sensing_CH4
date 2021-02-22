@@ -18,10 +18,10 @@ Scripts:
       8) Final correlation analysis is done with these sectored maps to study the relationship between spatial indices and CH4 emissions.
     
   - Generates 4 figures: 
-        - fig: Discretized flux footprint map with bin sector overlay (after step 5, and outlines from step 7 overlaid)
-        - fig2: Correlation with sector-binned landsat vs. ffp (step 8)
-        - fig3: Flux footprint visualization (step 5)
-        - fig4: Unbinned spatial correlation landsat vs. ffp (step 6)
+      - fig: Discretized flux footprint map with bin sector overlay (after step e, and outlines from step g overlaid)
+      - fig2: Correlation with sector-binned landsat vs. ffp (step h)
+      - fig3: Flux footprint visualization (step e)
+      - fig4: Unbinned spatial correlation landsat vs. ffp (step f)
         
   - Example of how to call script and show figures in Jupyter Notebooks:
       from sector_plot import sector_plot
