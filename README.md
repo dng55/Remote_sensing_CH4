@@ -8,7 +8,7 @@ Scripts:
 - sector_plot.py
   - sector_plot.py is the final python script that holds all sub-functions that work together to organize Landsat 8 and FARF data for the purposes of this analysis. A broad overview:
 
-    1) Reads Landsat 8 spatial index data exported as a .csv from Google Earth Engine.
+     1) Reads Landsat 8 spatial index data exported as a .csv from Google Earth Engine.
     2) Grabs single Landsat date from full satellite image dataset that ranges from 03/2013 - 07/2020.
     3) Reads methane hotspot model data from Camilo-Rey Sanchez's model
     4) Uses Flux Footprint modelling (K&M) to mask out landsat data that's not within 80% of flux tower's footprint.
