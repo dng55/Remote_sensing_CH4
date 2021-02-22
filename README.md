@@ -41,6 +41,13 @@ Scripts:
 - lat_to_m.py and lon_to_m.py
   - lat_to_m and lon_to_m are sub-functions to turn latitude and longitude degrees into metres.
 
+- v1_Landsat_Spatial.js
+  - Javascript code for Google Earth Engine to collect spatial index data from a specified region, and filters for snow and cloud coverage. Outputs as csv file containing NDVI, NDWI, MNDWI, BT, Lat, Lon
+
+- Landsat_LST.js
+  - Edited Javascript code (original from Sofia Ermida) that computes NDVI, NDWI, MNDWI, and BT
+
+
 
 Data:
 - Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
