@@ -29,24 +29,24 @@ Scripts:
           - fig,fig2,fig3,fig4 = sector_plot(20170728, 'june_aug2017.csv')
           - display(fig,fig2,fig3,fig4)
     
-- get_spatial.py
-  - get_spatial.py is a sub-function that gathers a single landsat image of a specified date. Outputs: 1) latitude, 2) longitude, 3) spatial index
+2) get_spatial.py
+    - get_spatial.py is a sub-function that gathers a single landsat image of a specified date. Outputs: 1) latitude, 2) longitude, 3) spatial index
 
-- landsat_footprint.py
-  - landsat_footprint.py holds 2 sub-functions: landsat_footprint, and ffp_matched_to_landsat
-    - landsat_footprint: masks out all satellite data that falls outside of the flux footprint. 
+3) landsat_footprint.py
+    - landsat_footprint.py holds 2 sub-functions: landsat_footprint, and ffp_matched_to_landsat
+        - landsat_footprint: masks out all satellite data that falls outside of the flux footprint. 
 
-    - ffp_matched_to_landsat: bins hotspot model into 30 sq.m cells to match landsat spatial resolution
+        - ffp_matched_to_landsat: bins hotspot model into 30 sq.m cells to match landsat spatial resolution
 
-- lat_to_m.py and lon_to_m.py
-  - lat_to_m and lon_to_m are sub-functions to turn latitude and longitude degrees into metres.
+4) lat_to_m.py and lon_to_m.py
+    - lat_to_m and lon_to_m are sub-functions to turn latitude and longitude degrees into metres.
 
-- v1_Landsat_Spatial.js
-  - Javascript code for Google Earth Engine to collect spatial index data from a specified region, and filters for snow and cloud coverage. Outputs as csv file containing NDVI, NDWI, MNDWI, BT, Lat, Lon
-  - Access this code in my Google Earth Engine repo at: https://code.earthengine.google.com/?scriptPath=users%2FDNG%2Fgee_code%3A1v%20Final%20Spatial%20Indices
+5) v1_Landsat_Spatial.js
+    - Javascript code for Google Earth Engine to collect spatial index data from a specified region, and filters for snow and cloud coverage. Outputs as csv file containing NDVI, NDWI, MNDWI, BT, Lat, Lon
+    - Access this code in my Google Earth Engine repo at: https://code.earthengine.google.com/?scriptPath=users%2FDNG%2Fgee_code%3A1v%20Final%20Spatial%20Indices
 
-- Landsat_LST.js
-  - Edited Javascript code (original from Sofia Ermida) that computes NDVI, NDWI, MNDWI, and BT
+6) Landsat_LST.js
+    - Edited Javascript code (original from Sofia Ermida) that computes NDVI, NDWI, MNDWI, and BT
 
 
 
