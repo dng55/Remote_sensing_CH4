@@ -43,6 +43,7 @@ Scripts:
 
 - v1_Landsat_Spatial.js
   - Javascript code for Google Earth Engine to collect spatial index data from a specified region, and filters for snow and cloud coverage. Outputs as csv file containing NDVI, NDWI, MNDWI, BT, Lat, Lon
+  - Access this code in my Google Earth Engine repo at: https://code.earthengine.google.com/?scriptPath=users%2FDNG%2Fgee_code%3A1v%20Final%20Spatial%20Indices
 
 - Landsat_LST.js
   - Edited Javascript code (original from Sofia Ermida) that computes NDVI, NDWI, MNDWI, and BT
