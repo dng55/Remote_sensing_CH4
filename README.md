@@ -38,6 +38,9 @@ Scripts:
 
     - ffp_matched_to_landsat: bins hotspot model into 30 sq.m cells to match landsat spatial resolution
 
+- lat_to_m.py and lon_to_m.py
+  - lat_to_m and lon_to_m are sub-functions to turn latitude and longitude degrees into metres.
+
 
 Data:
 Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
