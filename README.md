@@ -37,3 +37,7 @@ Scripts:
     - landsat_footprint: masks out all satellite data that falls outside of the flux footprint. 
 
     - ffp_matched_to_landsat: bins hotspot model into 30 sq.m cells to match landsat spatial resolution
+
+
+Data:
+Keep landsat data in same folder as python scripts, but hotspot files are in a sub-folder called "data"
