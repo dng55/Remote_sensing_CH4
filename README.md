@@ -6,7 +6,7 @@ This method relies on 2D spatial outputs from Camilo-Rey Sanchez's Footprint Agg
 
 Scripts:
 - sector_plot.py
-  - sector_plot.py is the final python script that holds all sub-functions that work together to organize Landsat 8 and FARF data for the purposes of this analysis. A broad overview:
+  - sector_plot.py is the final python script that holds all sub-functions that work together to organize Landsat 8 and FARF data for the purposes of this analysis. Read comments for function input details. A broad overview:
 
     1) Reads Landsat 8 spatial index data exported as a .csv from Google Earth Engine.
     2) Grabs single Landsat date from full satellite image dataset that ranges from 03/2013 - 07/2020.
@@ -29,4 +29,11 @@ Scripts:
       - fig,fig2,fig3,fig4 = sector_plot(20170728, 'june_aug2017.csv')
       - display(fig,fig2,fig3,fig4)
     
-      
+- get_spatial.py
+  - get_spatial.py is a sub-function that gathers a single landsat image of a specified date. Outputs: 1) latitude, 2) longitude, 3) spatial index
+
+- landsat_footprint.py
+  - landsat_footprint.py holds 2 sub-functions: landsat_footprint, and ffp_matched_to_landsat
+    - landsat_footprint: masks out all satellite data that falls outside of the flux footprint. 
+
+    - ffp_matched_to_landsat: bins hotspot model into 30 sq.m cells to match landsat spatial resolution
