@@ -5,7 +5,7 @@ This method relies on 2D spatial outputs from Camilo-Rey Sanchez's Footprint Agg
 ----------------------------------------------------------
 
 Scripts:
-- sector_plot.py
+1) sector_plot.py
   - sector_plot.py is the final python script that holds all sub-functions that work together to organize Landsat 8 and FARF data for the purposes of this analysis. Read comments for function input details. A broad overview:
 
     1) Reads Landsat 8 spatial index data exported as a .csv from Google Earth Engine.
